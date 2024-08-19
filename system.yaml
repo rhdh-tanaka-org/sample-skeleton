@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: test-system
+  description: test-system
+spec:
+  owner: group:rhdh-tanaka-org/team-tanaka
+
