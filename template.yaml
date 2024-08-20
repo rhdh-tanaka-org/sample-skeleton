@@ -146,7 +146,7 @@ spec:
         repoUrl: https://${{ parameters.git_host_url }}/${{ parameters.git_owner_name }}/${{ parameters.app_name }}-manifest.git
         path: 'argocd/'
  
- output:
+  output:
     links:
       - title: Open the Source Code Repository
         if: ${{ parameters.git == "github" }}
